@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(90deg,#8052ec,#d161ff);
+   
+   
+}
+.header{
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    max-width: 80%;
+    border: 2px solid #d1d3d4;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    
+}
+.date-header{
+    color: #d1d3d4;
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.container{
+    border: 2px solid white;
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+    margin-top:20px;
+}
+#newtask{
+    position: relative;
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+#newtask input{
+    width: 70%;
+    height: 45px;
+    font-family: 'Popins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111;
+    font-weight: 500;
+    position: relative;
+}
+#newtask button{
+    position: relative;
+    width: 20%;
+    float: right;
+    height: 45px;
+    font-family: 'Popins',sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #8052ec;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+#newtask button:hover{
+    background-color: #8052ecf0;
+}
+#tasks{
+    background-color: #fff;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    width:100%;
+    position: relative;
+}
+.task{
+    background-color: #fff;
+    height: 45px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 2px solid #d1d3d4; */
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+
+}
+.task span{
+    font-family: 'Popins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.controlBtn button{
+    background-color: #8052ec;
+    color: #fff;
+    height: 35px;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.task img{
+    height: 80%;
+}
+.completed{
+    text-decoration: line-through;
+}
+
+.delete{
+    position: relative;
+    right: 2px;
+}
+.deleteAll
+{
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    text-align: center;
+    align-items: center;
+}
+.deleteAll button{
+    width: 60%;
+    border-radius: 10%;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #8052ec;
+    font-weight: bold;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+    outline: none;
+}
+.complete{
+    position: relative;
+    top: 1px;
+}
