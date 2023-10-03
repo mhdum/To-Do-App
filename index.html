@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To do app</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+  </style>
+</head>
+
+<body>
+  <main class="app">
+    <div class="header">
+      <h1>To do List</h1>
+    </div>
+    <div class="date-header">
+      <h2><span id="date"></span></h2>
+      <hr>
+    </div>
+    <div class="container">
+      
+      <div id="newtask">
+        <input type="text" name="task" id="task" placeholder="Enter your task">
+        <button id="add" onclick="addTask()">Add task </button>
+      </div>
+      <div id="to-do-list">
+        
+      </div>
+      <div class="deleteAll">
+        <button class="deleteAll" onclick="deleteAllTask()">
+          
+          Delete All
+
+        </button>
+      </div>
+    </div>
+  </main>
+    <script src="storage.js"></script>
+   
+  </body>
+
+</html>
